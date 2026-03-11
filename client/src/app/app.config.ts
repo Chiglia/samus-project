@@ -11,9 +11,11 @@ import { providePrimeNG } from 'primeng/config';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import Aura from '@primeuix/themes/aura';
 import { definePreset, palette } from '@primeuix/themes';
+import { MessageService } from 'primeng/api';
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    MessageService,
     provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),

@@ -4,6 +4,7 @@ import { RouterLink, RouterModule } from '@angular/router';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CardModule } from 'primeng/card';
+import { TranslocoModule } from '@jsverse/transloco';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { CardModule } from 'primeng/card';
     RouterModule,
     ButtonModule,
     CardModule,
+    TranslocoModule,
   ],
   exports: [
     CommonModule,
