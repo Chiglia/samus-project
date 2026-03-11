@@ -1,0 +1,16 @@
+<p>settings works!</p>
+<p-button
+  severity="contrast"
+  [rounded]="true"
+  icon="pi pi-moon"
+  (click)="this.themeService.toggle()"
+/>
+
+<p-button
+  icon="pi pi-globe"
+  text
+  [rounded]="true"
+  aria-label="Change language"
+  (onClick)="langMenu.toggle($event)"
+/>
+<p-menu #langMenu [popup]="true" [model]="languageMenuItems()" appendTo="body" />
