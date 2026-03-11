@@ -1,8 +1,67 @@
-<app-nav></app-nav>
-<div
+<!-- HERO -->
+<section
   style="
     background-image: url(vitruvian.jpg);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
   "
-  class="min-h-screen bg-cover bg-center bg-fixed"
-></div>
+  class="min-h-screen flex items-center justify-center text-center bg-cover bg-center bg-fixed"
+>
+  <div class="max-w-3xl px-6">
+    <h1 class="text-5xl font-bold mb-6">Samus</h1>
+
+    <p class="text-xl mb-8">
+      A European ecosystem of connected applications designed for privacy, collaboration and digital
+      independence.
+    </p>
+
+    <div class="flex gap-4 justify-center">
+      <p-button label="Explore Applications" routerLink="/applications"></p-button>
+      <p-button label="Our Mission" routerLink="/mission" variant="outlined"></p-button>
+    </div>
+  </div>
+</section>
+
+<!-- ECOSYSTEM -->
+<section class="py-20 px-6 max-w-7xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-12">The Samus Ecosystem</h2>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    @for (app of apps; track app.name) {
+      <p-card class="text-center hover:shadow-xl transition">
+        <div class="flex justify-center mb-4">
+          <i [class]="app.icon + ' text-4xl'"></i>
+        </div>
+
+        <h3 class="text-xl font-semibold mb-2">
+          {{ app.name }}
+        </h3>
+
+        <p class="text-sm text-gray-500 mb-4">
+          {{ app.description }}
+        </p>
+
+        <p-button [routerLink]="app.link" label="Open" variant="text"></p-button>
+      </p-card>
+    }
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="py-20 bg-surface-100 dark:bg-surface-900 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">A European Digital Ecosystem</h2>
+
+    <p class="text-lg leading-relaxed">
+      Samus is an open digital ecosystem built in Europe. Our mission is to create powerful and
+      privacy-respecting tools that work seamlessly together: productivity, communication, knowledge
+      and collaboration.
+    </p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-20 text-center">
+  <h2 class="text-3xl font-bold mb-6">Start using Samus</h2>
+
+  <p-button label="Create Account" routerLink="/signup" size="large"></p-button>
+</section>
