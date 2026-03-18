@@ -1,0 +1,67 @@
+{
+  "appTitle": "frontend-poc",
+  "Language": "Lingua",
+  "toggleTheme": "Cambia tema",
+  "logout": "Esci",
+  "menuDashboard": "Dashboard",
+  "menuShowcase": "Vetrina",
+  "menuTodo": "To Do",
+  "todo": {
+    "todoPageTitle": "Lista Todo",
+    "todoRefreshButton": "Aggiorna",
+    "todoCreateButton": "Crea todo",
+    "todoEmptyState": "Nessun todo trovato. Crea il tuo primo todo.",
+    "todoColumnId": "ID",
+    "todoColumnMessage": "Messaggio",
+    "todoColumnPriority": "Priorità",
+    "todoColumnActions": "Azioni",
+    "todoEditAriaLabel": "Modifica todo",
+    "todoDeleteAriaLabel": "Elimina todo",
+    "todoFormMessageLabel": "Messaggio",
+    "todoMessageValidationError": "Il messaggio deve essere di almeno 2 caratteri.",
+    "todoFormPriorityLabel": "Priorità",
+    "todoDialogCancelButton": "Annulla",
+    "todoDialogEditTitle": "Modifica todo",
+    "todoDialogCreateTitle": "Crea todo",
+    "todoDialogSaveButton": "Salva",
+    "todoDialogCreateSubmitButton": "Crea",
+    "todoLoadError": "Impossibile caricare i todo.",
+    "todoUpdateError": "Impossibile aggiornare il todo.",
+    "todoCreateError": "Impossibile creare il todo.",
+    "todoDeleteConfirm": "Vuoi davvero eliminare il todo \"{todoLabel}\"?",
+    "todoDeleteError": "Impossibile eliminare il todo."
+  },
+  "workspace": {
+    "workspaceTitle": "Benvenuto 👋",
+    "workspaceSubtitle": "Seleziona una voce dal menu per navigare l'applicazione."
+  },
+  "auth": {
+    "appTitle": "frontend-poc",
+    "username": {
+      "label": "Username",
+      "errors": {
+        "required": "Username obbligatorio",
+        "minlength": "Lo username deve avere almeno 6 caratteri",
+        "pattern": "Lo username non può contenere spazi"
+      }
+    },
+    "password": {
+      "label": "Password",
+      "errors": {
+        "required": "Password obbligatoria",
+        "minlength": "La password deve avere almeno 6 caratteri",
+        "pattern": "La password non può contenere spazi"
+      }
+    },
+    "forgotPassword": "Password dimenticata?",
+    "signIn": "Accedi"
+  },
+  "enti": {
+    "filterByInitial": "Filtra per iniziale:",
+    "showing": "Mostrando",
+    "of": "di",
+    "clients": "clienti",
+    "code": "Codice",
+    "workOn": "Lavora su"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appTitle": "frontend-poc",
+  "Language": "Language",
+  "toggleTheme": "Toggle theme",
+  "logout": "Logout",
+  "menuDashboard": "Dashboard",
+  "menuShowcase": "Showcase",
+  "menuTodo": "To Do",
+  "todo": {
+    "todoPageTitle": "Todo List",
+    "todoRefreshButton": "Refresh",
+    "todoCreateButton": "Create todo",
+    "todoEmptyState": "No todos found. Create your first todo.",
+    "todoColumnId": "ID",
+    "todoColumnMessage": "Message",
+    "todoColumnPriority": "Priority",
+    "todoColumnActions": "Actions",
+    "todoEditAriaLabel": "Edit todo",
+    "todoDeleteAriaLabel": "Delete todo",
+    "todoFormMessageLabel": "Message",
+    "todoMessageValidationError": "Message must be at least 2 characters.",
+    "todoFormPriorityLabel": "Priority",
+    "todoDialogCancelButton": "Cancel",
+    "todoDialogEditTitle": "Edit todo",
+    "todoDialogCreateTitle": "Create todo",
+    "todoDialogSaveButton": "Save",
+    "todoDialogCreateSubmitButton": "Create",
+    "todoLoadError": "Unable to load todos.",
+    "todoUpdateError": "Unable to update todo.",
+    "todoCreateError": "Unable to create todo.",
+    "todoDeleteConfirm": "Do you really want to delete todo \"{todoLabel}\"?",
+    "todoDeleteError": "Unable to delete todo."
+  },
+  "workspace": {
+    "workspaceTitle": "Welcome 👋",
+    "workspaceSubtitle": "Select an item from the menu to navigate the application."
+  },
+  "auth": {
+    "username": {
+      "label": "Username",
+      "errors": {
+        "required": "Username is required",
+        "minlength": "Username must be at least 6 characters",
+        "pattern": "Username cannot contain spaces"
+      }
+    },
+    "password": {
+      "label": "Password",
+      "errors": {
+        "required": "Password is required",
+        "minlength": "Password must be at least 6 characters",
+        "pattern": "Password cannot contain spaces"
+      }
+    },
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign in"
+  },
+  "enti": {
+    "filterByInitial": "Filter by initial:",
+    "showing": "Showing",
+    "of": "of",
+    "clients": "clients",
+    "code": "Code",
+    "workOn": "Work On"
+  }
+}
